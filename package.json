@@ -1,0 +1,10 @@
+{
+  "name": "learnhub-premium",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LearnHub learning dashboard with Supabase and a secure server-side study assistant",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "vercel dev", "check": "node --check app.js && node --check api/study-assistant.js" },
+  "dependencies": { "@supabase/supabase-js": "^2.57.0" },
+  "devDependencies": { "vercel": "^48.0.0" }
+}
